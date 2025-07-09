@@ -1,5 +1,5 @@
 from django.urls import path
 
-from .views import Home
+from .views import PingView
 
-urlpatterns = [path("", Home.as_view())]
+urlpatterns = [path("", PingView.as_view())]
